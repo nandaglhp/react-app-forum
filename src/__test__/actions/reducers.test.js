@@ -19,15 +19,15 @@ describe('Reducers', () => {
                     ownerId: 1,
                 },
                 {
-                    id: 3,
-                    title: 'Thread 3',
-                    ownerId: 3,
+                    id: 2,
+                    title: 'Thread 2',
+                    ownerId: 2,
                 },
             ],
         };
 
         setThreads(previousState, mockData);
-        expect(previousState.threads).toEqual([]);
+        expect(previousState.threads).toEqual(mockData.payload);
     });
 
     it('setLeaderboard reducer should set the leaderboard when called', () => {
