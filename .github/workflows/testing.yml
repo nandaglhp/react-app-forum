@@ -3,7 +3,7 @@ name: Continuous Integration Workflow
 on: push
 
 jobs:
-    build:
+    continuous-integration:
         runs-on: ubuntu-latest
         steps:
             - name: Checkout

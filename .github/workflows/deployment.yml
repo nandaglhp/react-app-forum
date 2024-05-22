@@ -8,8 +8,9 @@ on:
     push:
         branches:
             - master
+
 jobs:
-    Deploy-Production:
+    vercel-production:
         runs-on: ubuntu-latest
         steps:
             - name: Checkout
