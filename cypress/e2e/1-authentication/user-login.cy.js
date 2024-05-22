@@ -69,11 +69,12 @@ describe('User login', () => {
             cy.get('button[type="submit"]').click();
         });
 
-        cy.url().should('include', '/');
+        cy.url().should('match', /\/$/);
+        cy.get('h1').should('contain', 'All Threads');
     });
 
     it('should redirected to signin page if the user is not logged in', () => {
         cy.visit('/');
-        cy.url().should('include', '/auth/signin');
+        cy.url().should('match', /\/auth\/signin/);
     });
 });
