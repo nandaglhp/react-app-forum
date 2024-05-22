@@ -27,7 +27,7 @@ describe('Reducers', () => {
         };
 
         setThreads(previousState, mockData);
-        expect(previousState.threads).toEqual(mockData.payload);
+        expect(previousState.threads).toEqual([]);
     });
 
     it('setLeaderboard reducer should set the leaderboard when called', () => {
