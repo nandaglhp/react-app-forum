@@ -1,0 +1,19 @@
+name: Eslint
+
+on:
+    - push
+
+jobs:
+    build:
+        name: Run ESLint
+        runs-on: ubuntu-latest
+        steps:
+            - name: Checkout Repository
+              uses: actions/checkout@v4
+
+            - name: Install Nodejs
+              uses: actions/setup-node@v4
+              run: npm ci
+
+            - name: Run Eslint
+            - run: eslint .

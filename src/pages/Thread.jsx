@@ -20,9 +20,7 @@ export default function Thread() {
 
     const dispatch = useDispatch();
     const comments = useSelector((state) => state.global.thread?.comments);
-    const selected = useSelector((state) => {
-        return state.global.threads.find((t) => t.id === id);
-    });
+    const selected = useSelector((state) => state.global.threads.find((t) => t.id === id));
 
     React.useEffect(() => {
         dispatch(getThreads());
