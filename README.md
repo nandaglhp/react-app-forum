@@ -31,3 +31,17 @@
 -   [x] Vote on comment
 -   [x] Add comment
 -   [x] Leaderboard
+
+## Actions Testing
+
+-   Failed CI/CI Status
+
+![Failed CI/CD Screenshot](screenshots/failed.png)
+
+-   Success CI/CI Status
+
+![Success CI/CD Screenshot](screenshots/success.png)
+
+-   Branch Protection
+
+![Branch Protection Screenshot](screenshots/branch-protection.png)

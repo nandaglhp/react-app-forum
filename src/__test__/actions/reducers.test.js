@@ -19,9 +19,9 @@ describe('Reducers', () => {
                     ownerId: 1,
                 },
                 {
-                    id: 2,
-                    title: 'Thread 2',
-                    ownerId: 2,
+                    id: 3,
+                    title: 'Thread 3',
+                    ownerId: 3,
                 },
             ],
         };
