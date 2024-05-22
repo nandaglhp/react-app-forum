@@ -36,12 +36,12 @@
 
 -   Failed CI/CI Status
 
-![Failed CI/CD Screenshot](screenshots/failed.png)
+![Failed CI/CD Screenshot](screenshots/1_ci_check_error.png)
 
 -   Success CI/CI Status
 
-![Success CI/CD Screenshot](screenshots/success.png)
+![Success CI/CD Screenshot](screenshots/2_ci_check_pass.png)
 
 -   Branch Protection
 
-![Branch Protection Screenshot](screenshots/branch-protection.png)
+![Branch Protection Screenshot](screenshots/3_branch_protection.png)
