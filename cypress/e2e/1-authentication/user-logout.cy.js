@@ -10,10 +10,10 @@ describe('User logout', () => {
     });
 
     it('should show the logout button and redirect to the signin page when pressing it', () => {
-        cy.url().should('include', '/');
+        cy.url().should('match', /\/$/);
 
         cy.get('button[type="button"]').contains('Sign out').click();
 
-        cy.url().should('include', '/auth/signin');
+        cy.url().should('match', /\/auth\/signin/);
     });
 });
