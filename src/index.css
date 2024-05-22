@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    :root {
+        --font-poetsen: 'Poetsen One', sans-serif;
+        --font-nunito: 'Nunito', sans-serif;
+    }
+
+    body {
+        @apply font-body antialiased;
+    }
+}
+
+@layer components {
+    .btn {
+        @apply px-6 uppercase tracking-wide;
+    }
+
+    .btn-sm {
+        @apply px-4 py-1 normal-case;
+    }
+
+    .label-text,
+    .label-text-alt {
+        @apply text-base;
+    }
+
+    .w-content {
+        @apply w-full max-w-7xl mx-auto px-8;
+    }
+
+    .input-bordered,
+    .textarea-bordered {
+        @apply bg-white;
+    }
+}
